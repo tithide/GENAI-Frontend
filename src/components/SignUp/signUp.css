@@ -1,0 +1,33 @@
+.register-link{
+    color:blue;
+    cursor: pointer;
+}
+
+.signup-img {
+    opacity: 0.9;
+    background-size: contain;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.cross {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1:after, h2:after, h3:after, h4:after, h5:after, h6:after{
+    background-color: #0487fa;
+    bottom: -10px;
+    height: 8px;
+    width: 76px;
+    position: relative;
+    content: "";
+    display: block;
+  }
+
+  .modal-backdrop {
+    z-index: 100000 !important;
+  }
+
+  .modal {
+    z-index: 100001 !important;
+  }

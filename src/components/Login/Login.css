@@ -1,0 +1,16 @@
+.loginApp {
+    border: 1px solid black;
+}
+
+.register-link{
+    color:blue;
+    cursor: pointer;
+}
+
+.modal-backdrop {
+    z-index: 100000 !important;
+  }
+
+  .modal {
+    z-index: 100001 !important;
+  }
